@@ -41,3 +41,8 @@ const AddOrderToUser = async (req, res) => {
 
     }
 }
+module.exports={
+    AddUser,
+    GetAllProductsByUserId,
+    AddOrderToUser
+} 
